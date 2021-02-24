@@ -14,7 +14,7 @@ const Home = () => {
             </div> */}
             <div class='title-container' style={{ backgroundImage: `url(${Banff})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
                 <h1>I'm Mary Baker</h1>
-                <h2>and I'm a Junior Full Stack Web Developer</h2>
+                <h2>and I'm a Full Stack Web Developer</h2>
                 <div style={{ fontSize: '1.25rem' }}>
                     <a href='https://github.com/marybees'><GithubOutlined style={{ color: 'white', padding: '1rem'}} /></a>
                     <a href='https://www.linkedin.com/in/maryebaker/'><LinkedinOutlined style={{color: 'white', padding: '1rem'}}  /></a>
