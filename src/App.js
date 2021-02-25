@@ -5,7 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 import { Affix } from 'antd';
-import "antd/dist/antd.css";
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
