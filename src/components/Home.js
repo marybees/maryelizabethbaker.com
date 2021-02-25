@@ -20,7 +20,7 @@ const Home = () => {
                     <a href='https://www.linkedin.com/in/maryebaker/'><LinkedinOutlined style={{color: 'white', padding: '1rem'}}  /></a>
                     <a href='https://maryebees.medium.com'><MediumOutlined style={{color: 'white', padding: '1rem'}}  /></a>
                 </div>
-                <Button primary style={{ margin: '1rem' }}><a href='/about'>More about me</a></Button>
+                <Button primary style={{ margin: '1rem' }}><a href='#about'>More about me</a></Button>
             </div>
         </div>
     )
