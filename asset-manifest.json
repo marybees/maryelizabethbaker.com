@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.992bf25a.chunk.css",
+    "main.css": "/static/css/main.afe3f84c.chunk.css",
     "main.js": "/static/js/main.89152c4a.chunk.js",
     "main.js.map": "/static/js/main.89152c4a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5a930b8.js",
@@ -8,7 +8,7 @@
     "static/js/2.679f17aa.chunk.js": "/static/js/2.679f17aa.chunk.js",
     "static/js/2.679f17aa.chunk.js.map": "/static/js/2.679f17aa.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.992bf25a.chunk.css.map": "/static/css/main.992bf25a.chunk.css.map",
+    "static/css/main.afe3f84c.chunk.css.map": "/static/css/main.afe3f84c.chunk.css.map",
     "static/js/2.679f17aa.chunk.js.LICENSE.txt": "/static/js/2.679f17aa.chunk.js.LICENSE.txt",
     "static/media/Banff.dd99de75.jpeg": "/static/media/Banff.dd99de75.jpeg",
     "static/media/Colosseum.3abb6c9d.JPEG": "/static/media/Colosseum.3abb6c9d.JPEG",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5a930b8.js",
     "static/js/2.679f17aa.chunk.js",
-    "static/css/main.992bf25a.chunk.css",
+    "static/css/main.afe3f84c.chunk.css",
     "static/js/main.89152c4a.chunk.js"
   ]
 }
