@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Timeline, Divider } from 'antd';
 import { BookOutlined, LaptopOutlined } from '@ant-design/icons';
-// import Video from './Paros.MP4';
 import Scuba from './Scuba.JPG'
 
 const About = () => {

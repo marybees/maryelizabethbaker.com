@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GithubOutlined, LinkedinOutlined, MediumOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
-// import Video from './Split.MP4';
 import Banff from './Banff.jpeg';
 
 const Home = () => {
