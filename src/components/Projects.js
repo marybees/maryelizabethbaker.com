@@ -56,7 +56,7 @@ const Projects = () => {
             <div class='title-container' style={{ backgroundImage: `url(${Colosseum})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed', marginBottom: '3rem' }}>
                 <h1>I build cool things</h1>
                 <h2>using Javascript, React, HTML & CSS</h2>
-                <a href='#target'><Button ghost style={{margin: '1rem'}}>See my work</Button></a>
+                <a href='#target'><Button primary style={{margin: '1rem'}}>See my work</Button></a>
             </div>
             <div id='target' class='card-container'>
                 {projectData.map((project) => {

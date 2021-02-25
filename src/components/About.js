@@ -16,7 +16,7 @@ const About = () => {
             <div class='title-container' style={{ backgroundImage: `url(${Scuba})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
                 <h1>I offer a diverse perspective</h1>
                 <h2>with a proven track record working on international and remote teams</h2>
-                <a href='#target'><Button ghost style={{ margin: '1rem' }}>See my experience</Button></a>
+                <a href='#target'><Button primary style={{ margin: '1rem' }}>See my experience</Button></a>
             </div>
             <div id='target'>
             <div class='timeline-container'>

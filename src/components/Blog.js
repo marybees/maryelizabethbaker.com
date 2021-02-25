@@ -61,7 +61,7 @@ const Blog = () => {
             <div class='title-container' style={{ backgroundImage: `url(${Tree})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
                 <h1>I'm a lifelong learner</h1>
                 <h2>and thrive in environments where I can help others</h2>
-                <a href='#posts'><Button ghost style={{margin: '1rem'}}>Check out my blog</Button></a>
+                <a href='#posts'><Button primary style={{margin: '1rem'}}>Check out my blog</Button></a>
             </div>
             <div style={{ padding: '2rem' }} id='posts'></div>
             <div class='blog-container'>
