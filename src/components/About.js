@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Timeline, Divider } from 'antd';
 import { BookOutlined, LaptopOutlined } from '@ant-design/icons';
 import Scuba from './Scuba.JPG'
@@ -15,7 +16,7 @@ const About = () => {
             <div class='title-container' style={{ backgroundImage: `url(${Scuba})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
                 <h1>I offer a diverse perspective</h1>
                 <h2>with a proven track record working on international and remote teams</h2>
-                <a href='#target'><Button primary style={{ margin: '1rem' }}>See my experience</Button></a>
+                <Link to='#target'><Button primary style={{ margin: '1rem' }}>See my experience</Button></Link>
             </div>
             <div id='target'>
             <div class='timeline-container'>

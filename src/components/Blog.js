@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Button, List, Avatar } from 'antd';
 import Tree from './Tree.JPEG';
 
@@ -61,7 +62,7 @@ const Blog = () => {
             <div class='title-container' style={{ backgroundImage: `url(${Tree})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
                 <h1>I'm a lifelong learner</h1>
                 <h2>and thrive in environments where I can help others</h2>
-                <a href='#posts'><Button primary style={{margin: '1rem'}}>Check out my blog</Button></a>
+                <Link to='#posts'><Button primary style={{margin: '1rem'}}>Check out my blog</Button></Link>
             </div>
             <div style={{ padding: '2rem' }} id='posts'></div>
             <div class='blog-container'>
@@ -76,9 +77,9 @@ const Blog = () => {
                     }}
                     dataSource={listData}
                     footer={
-                    <div>
+                    <a href='https://maryebees.medium.com'><div style={{ color: '#202020' }}>
                         <b>maryebees.medium.com</b> blog
-                    </div>
+                    </div></a>
                     }
                     renderItem={item => (
                     <List.Item
